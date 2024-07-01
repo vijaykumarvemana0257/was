@@ -1,0 +1,19 @@
+{
+    "Statement": [
+       {
+          "Effect": "Allow",
+          "Principal": {
+             "AWS": "arn:aws:iam::471112705726:user/VijayKumarVemana"
+          },
+          "Action": [
+            "s3:ListBucket",
+            "s3:GetObject",
+            "s3:PutObject"
+          ],
+          "Resource": [
+            "arn:aws:s3:::vijay-bucket-policy",
+            "arn:aws:s3:::vijay-bucket-policy/*"
+          ]
+       }
+    ]
+  }
