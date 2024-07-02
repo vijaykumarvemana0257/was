@@ -1,1 +1,1 @@
-console.log('hello world')
+console.log('Hello, your script is running!');
