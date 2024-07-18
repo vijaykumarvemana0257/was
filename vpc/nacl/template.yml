@@ -6,13 +6,13 @@ Parameters:
     Default: t2.micro
   VpcId:
     Type: String
-    Default: vpc-015496fdea0adb853
+    Default:  vpc-02c00314dbbaba9df
   ImageId:
     Type: String
-    Default: ami-0b32aae1897ab300e
+    Default: ami-029b17807bf3740a1
   SubnetId:
     Type: String
-    Default: subnet-041443d0b4099791a
+    Default:  subnet-02c597cde07acc138
 
 Resources:
   SSMRole:
