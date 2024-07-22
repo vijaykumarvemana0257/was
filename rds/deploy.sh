@@ -15,4 +15,3 @@ aws cloudformation deploy \
 
 
 
-postgresql://postgres:mypassword@rds-basic-rdsinstance-ewhkdoacrxzd.cbk8g6s064cm.us-east-2.rds.amazonaws.com:5432/mydatabase
