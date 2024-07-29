@@ -2,7 +2,7 @@
 set -e
 
 # Print current AWS user
-aws sts get-caller-identity
+
 
 # we need the absolute path because relative path was giving us trouble
 root_path=$(realpath .)
@@ -26,5 +26,4 @@ sam package \
   --template-file "$template_path" \
   --output-template-file $output_template_path \
   --s3-prefix "zip-layer-python" \
-  --s3-bucket lambda-fun-vijay \
-  --debug
+  

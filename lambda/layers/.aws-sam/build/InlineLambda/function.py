@@ -1,11 +1,9 @@
 import json
-from faker import Faker
 
 def handler(event, context):
-    fake = Faker()
-    message = 'Hello {}!'.format(fake.name())  
+    message = 'Hello {} {}!'.format(event['first_name'], event['last_name'])  
     info = {
-        "Type": "Container Example",
+        "Type": "Zip Inline",
         "Version": 1
     }
     info_json = json.dumps(info)

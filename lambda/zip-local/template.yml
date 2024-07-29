@@ -5,9 +5,7 @@ Resources:
   InlineLambda:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: function.handler
+      Handler: index.handler
       Runtime: python3.12
       PackageType: Zip
       CodeUri: "./function/"
-      Layers:
-        - arn:aws:lambda:us-east-2:507527568727:layer:faker-py-layer:2
