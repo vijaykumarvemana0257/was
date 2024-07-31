@@ -8,7 +8,7 @@ Parameters:
     Default: vpc-0edf1594968b9e64d
   ImageId:
     Type: String
-    # ca-central-1 AMI
+    
     Default: ami-029b17807bf3740a1
   SubnetId:
     Type: String

@@ -6,14 +6,13 @@ Parameters:
     Default: t3.micro
   VpcId:
     Type: String
-    Default: vpc-08f0ec02f7471b018
+    Default: vpc-0edf1594968b9e64d
   ImageId:
     Type: String
-    # ca-central-1 AMI
-    Default: ami-07413789aae50b0e0
+    Default: ami-029b17807bf3740a1
   SubnetId:
     Type: String
-    Default: subnet-0e0fd31733061237d
+    Default: subnet-06542ba48cddf0634
 Resources:
   MyEC2Instance: 
     Type: AWS::EC2::Instance
