@@ -1,0 +1,1 @@
+if you need to encrypt an attached volume we ned to cfrate a snapshot and create a copy of the snapshot then you can encrypt it and then go on attach this volume and remove the unecnrypted volume 
