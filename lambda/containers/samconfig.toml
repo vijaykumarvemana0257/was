@@ -1,0 +1,9 @@
+version=0.1
+[default.package.parameters]
+s3_bucket = "lambda-fun-vijay"
+region = "us-east-2"
+image_repository="507527568727.dkr.ecr.us-east-2.amazonaws.com/python-container-example"
+[default.deploy.parameters]
+s3_bucket = "lambda-fun-vijay"
+region = "us-east-2"
+image_repository="507527568727.dkr.ecr.us-east-2.amazonaws.com/python-container-example"
