@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "aws-sdk": "^2.1655.0",
+    "@aws-sdk/client-sqs": "^3.623.0",
+    "aws-sdk": "^2.1667.0",
     "crypto": "^1.0.1"
   }
 }
