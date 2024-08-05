@@ -3,7 +3,7 @@ echo "== receieve"
 
 root_path=$(realpath .)
 
-QUEUE_URL=https://sqs.ca-central-1.amazonaws.com/982383527471/sqs-fifo-MyQueue-TFdtzZeh3R0e.fifo
+QUEUE_URL=https://sqs.us-east-2.amazonaws.com/507527568727/sqs-fifo-MyQueue-bxKyuydUQQht.fifo
 
 aws sqs receive-message \
 --queue-url $QUEUE_URL \
